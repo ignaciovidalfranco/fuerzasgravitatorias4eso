@@ -44,8 +44,8 @@ def init():
 def animate(i,factor_de_distancia,a,v):
     
     # Hago que la figura de vueltas siguiendo la ecuación de un círculo.
-    vref = 29100
-    aref = 223334188210.7675
+    vref = 29105
+    aref = 0.0056
     radianes = np.radians((v/vref)*i)
     
     x = centro_orbita[0] + factor_de_distancia*np.sin(radianes)
